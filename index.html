@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Artemai| Galería de arte online</title>
+        <link rel="stylesheet" href="css/index.css" type="text/css">
+        <link rel="icon" href="icono/icono.ico" type="image/ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/eee8b9a576.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header class="cabecera">   
+            <img class="cabecera__img" src="imagenes/LOGOARTEMAI.png"/>
+            <h1 class="cabecera__h1">Artemai</h1> 
+            <section class="cabecera__form-login">
+                <form action="procesar.php" method="post">
+                    <article class="cabecera__form-login-usuario">
+                        <label for="usuario">Usuario:</label>
+                        <input type="text" id="usuario" name="usuario" placeholder="Enter username"/>
+                    </article>
+
+                    <article class="cabecera__form-login-contraseña">
+                        <label for="contraseña">Contraseña:</label>
+                        <input type="password" name="contraseña" id="contraseña" placeholder="Enter password"/>
+                    </article>
+
+                    <input class="cabecera__form-login-boton" type="submit" value="Enviar"/>
+                </form>
+            </section>
+            <nav class="cabecera__nav-tipo-expo">
+                <a href="../pe1/html/fotografias.html">Fotografías</a>
+                <a href="../pe1/html/esculturas.html">Esculturas</a>
+                <a href="../pe1/html/pinturas.html">Pinturas</a>  
+            </nav>
+
+            <nav class="cabecera__nav-registro">
+                <a  href="../pe1/html/altausuario.html">Registrar usuario</a>
+                <a  href="../pe1/html/altacomisario.html">Registrar comisario</a>
+            </nav>
+
+            <!--Header responive-->
+            <section class="menu__responsive">
+                <img class="menu__responsive-img" src="imagenes/LOGOARTEMAI.png"/>
+                
+                <nav class="menu__responsive-nav-exposiciones">
+                    <a href="html/fotografias.html">Fotografías</a>
+                    <a href="html/esculturas.html">Esculturas</a>
+                    <a href="html/pinturas.html">Pinturas</a>
+                </nav>
+                
+                        
+                <nav class="menu__responsive-nav-login">
+                    <a href="html/login.html">Iniciar Sesión</a>
+                    <a href="html/registrarusuario.html">Registrar usuario</a>
+                    <a href="html/registrarcomisario.html">Registrar comisario</a>
+                </nav>
+            </section>
+        </header>
+        <main>  
+            <section class="main__exposiciones">
+                <h3 class="main__exposiciones-h3">Exposiciones</h3>
+                <article class="main__exposiciones-article1">
+                    <a href="html/exposiciones/expo1.html">
+                        <img src="imagenes/exposiciones_foto/foto1.jpeg">
+                    </a>
+                    <b><a href="html/exposiciones/expo1.html">California photos</a></b>
+                    <p>Esta exposición trata de fotografiar los lugares más bonitos de esta bonita ciudad estadounidense.</p>
+                </article>
+                <article class="main__exposiciones-article2">
+                    <a href="html/exposiciones/expo2.html">
+                        <img src="imagenes/exposiciones_foto/alex.jpeg">
+                    </a>
+                    <b><a href="html/exposiciones/expo2.html">Personas bellas</a></b>
+                    <p>En esta exposición verás fotografías preciosas de personas de todo tipo del mundo.</p>
+                </article>
+                <article class="main__exposiciones-article3">
+                    <a href="html/exposiciones/expo2.html">
+                        <img src="imagenes/exposiciones_foto/foto3.jpg">
+                    </a>
+                    <b><a href="html/exposiciones/expo3.html">Natural things</a></b>
+                    <p>En esta exposición verás los rasgos más simples y bonitos de la naturaleza.</p>
+                </article>
+                <article class="main__exposiciones-article4">
+                    <a href="html/exposiciones/expo2.html">
+                        <img src="imagenes/exposiciones.jpg">
+                    </a>
+                    <b><a href="html/exposiciones/expo4.html">Exposición del Louvre</a></b>
+                    <p>En esta exposición están los cuadros más prestigiosos de Francia.</p>
+                </article>
+                <article class="main__exposiciones-article5">
+                    <a href="html/exposiciones/expo2.html">
+                        <img src="imagenes/exposiciones_cuadros/1.jpg">
+                    </a>
+                    <b><a href="html/exposiciones/expo5.html">El arte japonés</a></b>
+                    <p>Exposición de los cuadros más importantes de la historia japonesa.</p>
+                </article>
+                <article clase="main__exposiciones-article6">
+                    <a href="html/exposiciones/expo2.html">
+                        <img src="imagenes/exposiciones_cuadros/2.jpg   ">
+                    </a>
+                    <b><a href="html/exposiciones/expo2.html">Exposición 6</a></b>
+                    <p>Esta es la exposición 6 exposición de pintura.</p>
+                </article>
+                <article>
+                    <a href="html/exposiciones/expo2.html">
+                        <img src="imagenes/exposiciones.jpg">
+                    </a>
+                    <b><a href="html/exposiciones/expo2.html">Exposición 7</a></b>
+                    <p>Esta es la exposición 7 exposición de escultura.</p>
+                </article>
+                <article>
+                    <a href="html/exposiciones/expo2.html">
+                        <img src="imagenes/exposiciones.jpg">
+                    </a>
+                    <b><a href="html/exposiciones/expo8.html">Exposición 8</a></b>
+                    <p>Esta es la exposición 8 exposición de escultura.</p>
+                </article>
+            </section>
+            <aside class="main__aside">
+                    <article>
+                        <a href="html/noticias/noticia1.html">Mire lo que han encontrado en el cuadro del grito</a>
+                    </article>
+                    <article>
+                        <a href="html/noticias/noticia2.html">Estás son las cinco esculturas más visitadas del mundo</a>
+                    </article>
+                    <article>
+                        <a href="html/noticias/noticia3.html">Este cuadro de un famoso artista español te sorprenderá</a>
+                    </article>
+                    <article>
+                        <a href="html/noticias/noticia4.html">La gran polémica de la mona lisa</a>
+                    </article>
+                    <article>
+                        <a href="html/noticias/noticia1.html">Mire lo que han encontrado en el cuadro del grito</a>
+                    </article>
+                    <article>
+                        <a href="html/noticias/noticia2.html">Estás son las cinco esculturas más visitadas del mundo</a>
+                    </article>
+                    <article>
+                        <a href="html/noticias/noticia3.html">Este cuadro de un famoso artista español te sorprenderá</a>
+                    </article>
+                    <article>
+                        <a href="html/noticias/noticia4.html">La gran polémica de la mona lisa</a>
+                    </article>
+                    <article>
+                        <a href="html/noticias/noticia1.html">Mire lo que han encontrado en el cuadro del grito</a>
+                    </article>
+                    <article>
+                        <a href="html/noticias/noticia2.html">Estás son las cinco esculturas más visitadas del mundo</a>
+                    </article>
+                    <article>
+                        <a href="html/noticias/noticia3.html">Este cuadro de un famoso artista español te sorprenderá</a>
+                    </article>
+                    <article>
+                        <a href="html/noticias/noticia4.html">La gran polémica de la mona lisa</a>
+                    </article>
+            </aside>
+        </main>
+        <footer>
+            <nav class="footer__contacto">
+                <a href="#../pe1/_como_se_hizo.pdf" target="_BLANK">Contactanos</a>
+            </nav>
+        </footer>
+    </body>
+</html>

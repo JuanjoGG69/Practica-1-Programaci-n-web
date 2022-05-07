@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Artemai| Galería de arte online</title>
+        <link rel="stylesheet" href="/~pw20532681/pe1/css/expo.css" type="text/css">
+        <link rel="icon" href="/~pw20532681/pe1/icono/icono.ico" type="image/ico">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/eee8b9a576.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <header class="cabecera">
+            <a href="/~pw20532681/pe1/index.html">  
+                <img class="cabecera__img" src="/~pw20532681/pe1/imagenes/LOGOARTEMAI.png"/>
+            </a> 
+            <h1 class="cabecera__h1">Artemai</h1> 
+            <section class="cabecera__form-login">
+                <form action="procesar.php" method="post">
+                    <article class="cabecera__form-login-usuario">
+                        <label for="usuario">Usuario:</label>
+                        <input type="text" id="usuario" name="usuario" placeholder="Enter username"/>
+                    </article>
+
+                    <article class="cabecera__form-login-contraseña">
+                        <label for="contraseña">Contraseña:</label>
+                        <input type="password" name="contraseña" id="contraseña" placeholder="Enter password"/>
+                    </article>
+
+                    <input class="cabecera__form-login-boton" type="submit" value="Enviar"/>
+                </form>
+            </section>
+            <nav class="cabecera__nav-tipo-expo">
+                <a href="/~pw20532681/pe1/html/fotografias.html">Fotografías</a>
+                <a href="/~pw20532681/pe1/html/esculturas.html">Esculturas</a>
+                <a href="/~pw20532681/pe1/html/pinturas.html">Pinturas</a>  
+            </nav>
+
+            <nav class="cabecera__nav-registro">
+                <a  href="/~pw20532681/pe1/html/altausuario.html">Registrar usuario</a>
+                <a  href="/~pw20532681/pe1/html/altacomisario.html">Registrar comisario</a>
+            </nav>
+        </header> 
+        <main>
+            <section class="main__portada">
+                <section class="main__portada-text">
+                    <h3>Exposición: Personas bellas</h3>
+                    <section class="main__portada-text-p">
+                        <p>Nombre de obra: Rueda sorprendido</p>
+                        <p>Sala: Museo de las ciencias, Granada.</p>
+                    </section>
+                </section>
+                <section class="main__portada-imgcontainer">
+                    <img class="main__portada-imgcontainer-imgportada" src="/~pw20532681/pe1/imagenes/expo2/1.jpeg">
+                </section>
+            </section>
+            <section class="caja_comentarios">
+                <form action="post">
+                    <textarea type="text" name="coment" id="coment" cols="30" rows="10" placeholder="Escriba su comentario..."></textarea>
+                </form>
+
+                <section class="comentarios">
+                    <article>
+                        <img src="/~pw20532681/pe1/imagenes/fotos_comentarios/skippy.jpg">
+                        <h6>Skippy de Málaga</h6>
+                        <p>Me ha encantado la exposición y me ha parecido super graciosa, además las fotos de muy buena calidad.</p>
+                    </article>
+                    <article>
+                        <img src="/~pw20532681/pe1/imagenes/fotos_comentarios/stevejobs.jpg">
+                        <h6>Steve Jobs</h6>
+                        <p>Me encanta esta exposición pero lo que mas ha sorprendido
+                           ha sido el diseño y la estructura de la página web, si esto fuera la práctica 
+                           1 de CSS3 y HTML5 para la asignatura de programación web de la universidad de Granada
+                           del tercer curso segundo cuatrimestre le pondría un 10!!!, aunque si lo abres desde el
+                           móvil hay carencias. 
+                        </p>
+                    </article>
+                    <article>
+                        <img src="/~pw20532681/pe1/imagenes/fotos_comentarios/skippy.jpg">
+                        <h6>Skippy de Málaga</h6>
+                        <p>Me ha encantado la exposición y me ha parecido super graciosa, además las fotos de muy buena calidad.</p>
+                    </article>
+                </section>
+                
+            </section>
+            
+        </main>
+        <footer>
+            <nav class="footer__contacto">
+                <a href="html/contacto.html" target="_BLANK">Contactanos</a>
+            </nav>
+        </footer>
+    </body>
+</html>
